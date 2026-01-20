@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: radial-gradient(circle at top, #0b2a2f, #020b0d);
+  color: #e8fefe;
+}
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  text-align: center;
+}
+h1 {
+  font-size: 2.4rem;
+  color: #5fffd7;
+}
+.subtitle {
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+.codes {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+.code-box {
+  background: rgba(95,255,215,0.08);
+  border: 1px solid rgba(95,255,215,0.3);
+  padding: 14px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.code {
+  font-family: monospace;
+  font-size: 0.95rem;
+}
+.copy {
+  background: #5fffd7;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+.copy:hover {
+  opacity: 0.9;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 28px;
+  background: linear-gradient(90deg, #5fffd7, #2de2e6);
+  color: #022;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.note {
+  margin-top: 30px;
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
